@@ -3,3 +3,9 @@ for i in range(len(arr)):
     for j in range(len(arr[i])):
         x=arr[i][j]
 print(x)
+<<<<<<< HEAD
+=======
+
+a=[[100,78,45,34],[100,67,49,300,101]]
+print(a[1][0])
+>>>>>>> master

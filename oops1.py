@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Car:
     def __init__(self,car_id,name,year,price_per_day,status="available",rented_days=0):
         self.car_id=car_id
@@ -22,3 +23,7 @@ car1.display_details()
 car2.update("available")
 car3.price()
 car1.price()
+=======
+def greet(name):
+    x
+>>>>>>> master

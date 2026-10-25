@@ -25,6 +25,16 @@ def fun(num):
 fun(5)
 print()
 
+<<<<<<< HEAD
+=======
+def sum(a,b=0):
+    return a+b
+c=sum(3)
+print(c)
+print()
+
+
+>>>>>>> master
 #return type function
 def fun(num):
     return int(str(num)*5)
@@ -40,6 +50,7 @@ a=funn(10)
 b=10
 print(a+b)
 
+<<<<<<< HEAD
 
 def name():
     x="Darshan" #local var
@@ -48,3 +59,11 @@ def name():
 y="pavan"   #global variable
 print(x)
 print(y)
+=======
+name = "Global Name"
+def greet():
+    name = "Local Name"
+    print(name)
+greet()  # Prints local variable
+print(name)  # Prints global variable
+>>>>>>> master

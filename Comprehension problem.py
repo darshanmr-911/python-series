@@ -38,7 +38,11 @@ print()
 
 Create a dictionary where the keys are Kannada cities, and the values are their populations. Use dictionary comprehension to filter out cities with populations below 10 lakhs.'''
 city={"Bengaluru":12000000,"Mysuru":1500000,"Hubli":900000,"Belagavi":800000,"Mangalore":700000}
+<<<<<<< HEAD
 city_population={city: population for city, population in city.items() if population >= 1000000}
+=======
+city_population={city_name: population for city_name, population in city.items() if population >= 1000000}
+>>>>>>> master
 print(city_population)
 print()
 
